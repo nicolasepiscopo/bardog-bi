@@ -1,0 +1,30 @@
+.Table {
+    border: 0;
+    width: 100%;
+}
+
+.Table th {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 15px;
+    border-bottom: 1px solid #808080;
+}
+
+.Table thead tr {
+    padding: 0;
+    margin: 0;
+}
+
+.Table tr:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+.Table td {
+    padding: 15px;
+}
+
+.Table td a {
+    text-decoration: none;
+    color: #1791c9;
+    font-weight: bold;
+}

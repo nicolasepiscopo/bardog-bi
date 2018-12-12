@@ -1,0 +1,40 @@
+body {
+  background-color: #ebebeb;
+}
+
+.App {
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 900px;
+}
+
+@media (min-width: 1200px) {
+  .App {
+    margin: auto;
+    max-width: 80%;
+  }
+}
+
+.Subtitle {
+  font-size: 16px;
+  color: #808080;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.Divider {
+  border-right: 1px dashed #ccc;
+}
+
+.ui.divider {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+@media(max-width: 768px) {
+  .Divider {
+    border-right: 0;
+    border-bottom: 1px dashed #ccc;
+  }
+}
