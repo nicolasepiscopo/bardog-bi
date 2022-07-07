@@ -7,7 +7,7 @@
     "d3": "^5.7.0",
     "d3-funnel": "^1.2.1",
     "leaflet": "^1.0.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "react": "^16.6.3",
     "react-date-range": "^1.0.0-beta",
     "react-dom": "^16.6.3",
